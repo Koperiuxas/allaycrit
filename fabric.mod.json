@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "allaycrit",
+  "version": "${version}",
+  "name": "Allay Crit",
+  "description": "Toggleable auto jump-crit against allays holding an item (not amethyst shard).",
+  "license": "CC0-1.0",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.example.allaycrit.AllayCritClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.20.1",
+    "minecraft": "~26.2",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
